@@ -6,9 +6,9 @@ services:
     stdin_open: true
     tty: true
     ports:
-      - "7777:7777"
+      - "1811:1811"
     expose:
-      - "7777"
+      - "1811"
     environment:
       # Download the Calamity mod and CalamityMusic mod.
       - "TMOD_AUTODOWNLOAD=${_TMOD_AUTODOWNLOAD}"

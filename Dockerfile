@@ -125,7 +125,7 @@ RUN mkdir /data/tModLoader/Worlds
 RUN mkdir /data/tModLoader/Mods
 RUN mkdir /data/steamMods
 
-EXPOSE 7777
+EXPOSE 1811
 
 WORKDIR /terraria-server
 
